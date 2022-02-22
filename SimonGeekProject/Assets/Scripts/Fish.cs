@@ -20,6 +20,7 @@ public class Fish : MonoBehaviour
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>(); // auto set the sprite in this script to the sprite on the gameobject of this script
+        moveSpeed = Random.Range(1, 6); // the move speed is a random value between 1 and 5
     }
 
     // Update is called once per frame
